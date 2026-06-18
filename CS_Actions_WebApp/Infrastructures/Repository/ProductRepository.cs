@@ -1,7 +1,6 @@
-using CS_Actions_WebApp.Infrastructures.Context;
-using CS_Actions_WebApp.Infrastructures.Entity;
-
 using Microsoft.EntityFrameworkCore;
+using CS_Actions_WebApp.Infrastructures.Entity;
+using CS_Actions_WebApp.Infrastructures.Context;
 namespace CS_Actions_WebApp.Infrastructures.Repository;
 /// <summary>
 /// 商品情報のデータアクセスを担うリポジトリクラス

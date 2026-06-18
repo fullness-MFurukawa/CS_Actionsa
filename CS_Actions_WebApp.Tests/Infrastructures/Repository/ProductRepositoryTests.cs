@@ -1,11 +1,10 @@
 using CS_Actions_WebApp.Infrastructures.Context;
 using CS_Actions_WebApp.Infrastructures.Repository;
-
+using CS_Actions_WebApp.Infrastructures.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 using Testcontainers.PostgreSql;
-namespace CS_Actions_WebApp.Tests.Infrastructures;
+namespace CS_Actions_WebApp.Tests.Infrastructures.Repository;
 
 /// <summary>
 /// ProductRepositoryの単体テストドライバ
